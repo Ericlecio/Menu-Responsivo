@@ -5,3 +5,10 @@ function clique() {
         itens.style.display = 'block'
     }
 }
+function mudouTamanho() {
+    if (window.innerWidth >= 768) {
+        itens.style.display = 'block'
+    } else {
+        iten.style.display = 'none'
+    }
+}
